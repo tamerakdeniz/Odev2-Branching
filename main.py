@@ -1,6 +1,8 @@
 import random
+from art import logo
 
 def guess_number():
+    print(logo)
     print("Zorluk seviyesi seçin:")
     print("1: Kolay (1-50)")
     print("2: Orta (1-100)")
